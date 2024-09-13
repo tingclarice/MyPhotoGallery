@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/* font-family: 'Parisienne', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+/* font-family: 'Dela Gothic One', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+/* font-family: 'Kirang Haerang', cursive; */
+
+body {
+  background-color: #9B8BD7;
+}
+
+h1 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Kirang Haerang', cursive;
+  color: #f7feff;
+  margin-top: -30px;
+  text-align: center;
+}
+
+p {
+  color: #f7feff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.container {
+  justify-content: center;
+  align-items: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: flex;
+  object-fit: cover;  
+  padding: 7px; /* Highly inspired by Sabrina Zhang */
+  border-style: solid;
+  border-width: 3px;
+  border-color: white; 
+  margin: 20px;
+}
+
+/* I actually loved the opacity hover effect, so I decided to keep it! s/o to Ishika!! */
+
+img:hover {
+    opacity: 0.3;
+    /* visibility: visible; */
+}
